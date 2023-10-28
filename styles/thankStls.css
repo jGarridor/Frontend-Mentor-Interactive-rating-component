@@ -1,0 +1,25 @@
+.thanks {
+    display: none /*flex*/;
+    flex-flow: column nowrap;
+    justify-content: space-between;
+    align-items: center;
+    text-align: center;
+    padding: max(9%, 20px) max(13%, 20px);
+}
+
+.thanks__icn {
+    height: max(50%, 150px);
+    width: max(50%, 200px);
+}
+
+.thanks__icn img {
+    height: 100%;
+    width: 100%;
+}
+
+.thanks__sbmitmsg {
+    padding: 0.4rem;
+    border-radius: 20% / 90%;
+    background-color: var(--Very_Dark_Blue);
+    color: var(--Orange);
+}

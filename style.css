@@ -1,0 +1,50 @@
+@import url(./styles/ratingStls.css);
+@import url(./styles/thankStls.css);
+
+@font-face {
+    font-family: "overpass";
+    src: url(./Overpass-VariableFont_wght.ttf);
+}
+
+:root {
+    --Orange: hsl(25, 97%, 53%);
+    --White: hsl(0, 0%, 100%);
+    --Light_Grey: hsl(217, 12%, 63%);
+    --Medium_Grey: hsl(216, 12%, 54%);
+    --Dark_Blue: hsl(213, 19%, 18%);
+    --Very_Dark_Blue: hsl(216, 12%, 8%);
+}
+
+*, *::after, *::before {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font: 400 15px "overpass";
+    color: var(--Medium_Grey);
+}
+
+main {
+    width: max(100%, 350px);
+    height: max(100vh, 600px);
+    display: grid;
+    place-content: center;
+    grid-template-columns: min(90%, 500px);
+    grid-template-rows: max(25vw, 400px);
+    background-color: var(--Very_Dark_Blue);
+}
+
+section {
+    width: 100%;
+    height: 100%;
+    padding: max(8%, 20px);
+    border-radius: 10%;
+    background-color: var(--Dark_Blue);
+}
+
+h1 {
+    font-size: 2rem;
+    color: var(--White);
+}

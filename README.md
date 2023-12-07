@@ -33,8 +33,8 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://your-solution-url.com)
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
+- Solution URL: [[Add solution URL here](https://your-solution-url.com)](https://github.com/jGarridor/Interactive-rating-component/)
+- Live Site URL: [[Add live site URL here](https://your-live-site-url.com)](https://jgarridor.github.io/Interactive-rating-component/)
 
 ## My process
 
